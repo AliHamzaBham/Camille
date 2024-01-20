@@ -403,6 +403,10 @@ i {
     color: black;
 }
 
+.columns-section .columns-container .column.column-3 .text p {
+    color: black;
+}
+
 .columns-section .columns-container .column .icon {
     width: 60px; 
     height: 60px;
@@ -563,7 +567,7 @@ i {
 /* Team Section */
 
 #team {
-    padding-bottom: 300px;
+    padding-bottom: 200px;
 }
 
 #team .sec-heading h5 {
