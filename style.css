@@ -306,7 +306,7 @@ i {
 
 
 .about-container .row  .video {
-    background-image: url(./Assets/artist_img.jpeg); 
+    background-image: url("./Assets/artist_img.jpeg"); 
     background-size: cover;
     background-position: center center;
     cursor: pointer;
