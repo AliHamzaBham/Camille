@@ -698,7 +698,6 @@ i {
 #gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 400px;
 }
 
 #gallery .img-cont {
@@ -706,6 +705,7 @@ i {
     overflow: hidden;
     transition: 0.3s ease-in-out;
     background-color: #f18c8e;
+    height: 400px;
 }
 
 #gallery .gallery-img {
@@ -729,4 +729,19 @@ i {
 
 #gallery .gallery-img:hover h1 {
     display: block;
+}
+
+@media (max-width: 900px) {
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
