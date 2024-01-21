@@ -292,7 +292,7 @@ i {
 
 /* About Section */
 .about-container {
-    height: 800px;
+    
 }
 
 .about-container .row {
@@ -320,6 +320,7 @@ i {
 .about-container .row .text {
     display: grid;
     align-items: center;
+    padding: 40px 0px;
 }
 
 .about-container .row .text h5 {
@@ -345,9 +346,6 @@ i {
         width: 90%;
     }
 
-    .about-container {
-        height: 1200px;
-    }
 
     .about-container .row .text {
         display: block;
@@ -358,26 +356,11 @@ i {
     }
 }
 
-@media (max-width: 500px) {
 
-    .about-container {
-        height: 1400px;
-    }
-
-    .about-container .text {
-        margin-top: 0px;
-    }
-}
-
-@media (max-width: 375px) {
-
-    .about-container {
-        height: 1700px;
-    }
-
-    .about-container .text {
-        margin-top: -120px;
-    }
+@media (max-width: 310px) {
+    .about-container .row .text h2 {
+        font-size: 24px;
+    } 
 }
 
 
